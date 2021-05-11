@@ -1,0 +1,71 @@
+body {
+  text-align: center;
+  background-color: blanchedalmond;
+}
+
+#level-title {
+  font-family:  cursive;
+  font-size: 3rem;
+  margin: 5%;
+  color: black;
+}
+
+.container {
+  display: inline-block;
+  width: 50%;
+  margin: auto;
+}
+
+.btn {
+  /* margin: 25px; */
+  display: inline-block;
+  border-radius:100% ;
+  width: 160px;
+  height: 160px;
+  border: 5px solid black;
+  /* border-radius: 50%; */
+    
+}
+
+.game-over {
+  background-color: rgb(212, 165, 165);
+  /* opacity: 0.1; */
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+#start {
+  border-radius: 10%;
+  height: 70px;
+  width: 150px;
+  font-size: 2rem;
+  border: 1px black;
+  font-family:cursive;
+  line-height: 2rem;
+  margin-top: 2rem;
+  background-color: blanchedalmond;
+}
+
+#start:active {
+  box-shadow: 0 0 20px white;
+  transform: translateY(5px); 
+}
